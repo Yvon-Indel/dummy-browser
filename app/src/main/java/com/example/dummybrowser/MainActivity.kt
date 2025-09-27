@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
   private fun blockedText(url: String?): String =
-    if (!url.isNullOrBlank()) "Navigation bloquée\n\nURL: $url"
-    else "Navigation bloquée\n\nLes liens web sont désactivés sur cet appareil."
+    if (!url.isNullOrBlank()) "Papa est le plus fort !\n\nAdresse bloquée\n\nURL: $url"
+    else "Papa est le plus fort !\n\nNavigation bloquée\n\nLes liens web sont désactivés sur cet appareil."
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
